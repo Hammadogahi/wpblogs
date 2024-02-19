@@ -1,0 +1,76 @@
+.singlePostWrapper {
+    max-width: 1000px;
+    padding-top: 60px;
+    margin: auto;
+    margin-bottom: 60px;
+}
+
+.badgeWrapper {
+    text-align: center;
+}
+
+.badgeItem{
+    background: #fff;
+    border: 1px solid #000;
+    display: inline-block;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 2px;
+    line-height: 14px;
+    padding: 9px 15px 8px;
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
+     text-align: center;
+}
+
+.badgeItem:before {
+    background: #000;
+    bottom: -5px;
+    content: "";
+    display: block;
+    position: absolute;
+    left: -5px;
+    top: 5px;
+    width: 5px;
+}
+
+.badgeItem:after {
+    height: 5px;
+    left: 0;
+    right: 5px;
+    background: #000;
+    bottom: -5px;
+    content: "";
+    display: block;
+    position: absolute;
+}
+
+.title {
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 72px;
+    text-align: center;
+}
+
+.decorativeLineWrapper {
+    border-top: 2px solid #000;
+    height: 13px;
+    margin: 8px auto 25px;
+    max-width: 1000px;
+    text-align: center;
+}
+
+.decorativeLine {
+    position: relative;
+    top: -18px;
+}
+
+.lineSvg {
+    overflow: hidden;
+    position: relative;
+    z-index: 3;
+    top: 5px;
+}

@@ -1,0 +1,21 @@
+.featuredLayoutWrapper {
+    display: flex;
+    flex-direction: row;
+    gap:2rem;
+    max-width: 1320px;
+    margin:auto;
+    padding-top: 60px;
+}
+
+.featuredColOne {
+    width:25%;
+}
+
+.featuredColTwo {
+    width:50%;
+}
+
+
+.featuredColThree {
+    width:25%;
+}
